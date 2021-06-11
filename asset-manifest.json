@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vanithaRengaraju/First/static/css/main.e747c2d4.chunk.css",
+    "main.js": "/vanithaRengaraju/First/static/js/main.2a6a6ffc.chunk.js",
+    "main.js.map": "/vanithaRengaraju/First/static/js/main.2a6a6ffc.chunk.js.map",
+    "runtime-main.js": "/vanithaRengaraju/First/static/js/runtime-main.caf19c71.js",
+    "runtime-main.js.map": "/vanithaRengaraju/First/static/js/runtime-main.caf19c71.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/vanithaRengaraju/First/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8bbc853c.chunk.js": "/vanithaRengaraju/First/static/js/2.8bbc853c.chunk.js",
+    "static/js/2.8bbc853c.chunk.js.map": "/vanithaRengaraju/First/static/js/2.8bbc853c.chunk.js.map",
+    "static/js/3.7c1750a9.chunk.js": "/vanithaRengaraju/First/static/js/3.7c1750a9.chunk.js",
+    "static/js/3.7c1750a9.chunk.js.map": "/vanithaRengaraju/First/static/js/3.7c1750a9.chunk.js.map",
+    "index.html": "/vanithaRengaraju/First/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/vanithaRengaraju/First/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e747c2d4.chunk.css.map": "/vanithaRengaraju/First/static/css/main.e747c2d4.chunk.css.map",
+    "static/js/2.8bbc853c.chunk.js.LICENSE.txt": "/vanithaRengaraju/First/static/js/2.8bbc853c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caf19c71.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8bbc853c.chunk.js",
+    "static/css/main.e747c2d4.chunk.css",
+    "static/js/main.2a6a6ffc.chunk.js"
+  ]
+}
