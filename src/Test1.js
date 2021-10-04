@@ -1,24 +1,25 @@
+import React,{Component} from 'react'
+import axios from 'axios'
 
-
-import React,{useState} from 'react'
-
-const Test1 =()=>
-{
-    const [name,setName]= useState("")
-const handler =(event) =>
-{
-    setName(event.target.value)
-}
-const submitHandler=(event)=>{
-    console.log("form submitted")
-    event.preventDefault()
-}
+class Test1 extends Component{
+    constructor(){
+        super()
+        this.state={
+            posts:[]
+        }
+    }
+   componentDidMount(){
+       axios.get("https://jsonplaceholder.typicode.com/posts")
+       .then(response=>{console.log(this.state)
+       this.setState({posts:response.data})
+       })
+   }
+   
+    render(){
     return(<div>
-        <form onSubmit={submitHandler}>
-        <input type="text" value={name} onChange={handler}/>
-        <button>Submit</button>
-        </form>
+        {this.state.posts.map(post =>(<div key={post.id}>{post.title}</div>))}
     </div>)
-}
 
+    }
+}
 export default Test1
