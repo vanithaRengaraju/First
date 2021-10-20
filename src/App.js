@@ -7,13 +7,8 @@ import Test from './Test';
 import Second from './Second';
 
 function App() {
- function Fun(){
-console.log(2+3+"5")
- }
-  return (
-    <div>
-      <Second/>
-    </div>
+return(
+  <div>hello world</div>
   );
 }
 
